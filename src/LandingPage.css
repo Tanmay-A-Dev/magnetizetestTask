@@ -1,0 +1,148 @@
+.list__item {
+  color: #a6a6a6;
+}
+
+.list__item:hover {
+  color: #000 !important;
+  font-size: 18px !important;
+}
+
+.user__image--container {
+  border-radius: 10px;
+  position: relative;
+}
+.user__image--container > img {
+  width: 437px;
+  height: 438px;
+  border-bottom-left-radius: 10px;
+  z-index: 10;
+}
+
+.send__amount--container {
+  width: 262px;
+  height: 78px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  padding: 15px;
+  /* : 1px solid #eee; */
+  top: 50px;
+  left: -190px;
+}
+
+.send__amount--container > div {
+  width: 100%;
+  border-bottom: 2px solid #eee;
+}
+
+.total__amount--container {
+  width: 138px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  padding: 15px;
+  /* : 1px solid #eee; */
+  bottom: 40px;
+  left: -80px;
+  z-index: 1000;
+}
+
+.right__tick--svg {
+  position: absolute;
+  left: -70px;
+  top: 150px;
+}
+
+.storage__icon {
+  position: absolute;
+  right: -35px;
+  top: 20px;
+}
+
+.storage__icon > svg:nth-child(2) {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.message_icon {
+  position: absolute;
+  right: 35px;
+  bottom: -45px;
+  z-index: 1000;
+}
+
+.message_icon > svg:nth-child(2) {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+}
+
+.cradit_card--container {
+  position: absolute;
+  bottom: 35px;
+  right: -45px;
+  z-index: 1000;
+}
+
+.list__item--tools > div > span {
+  display: flex;
+  align-items: baseline;
+}
+.list__item--tools > div > span > svg {
+  margin-right: 10px;
+}
+.gramerly__icon {
+  position: relative;
+}
+
+.gramerly__icon svg:last-child {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+}
+
+.gradient__container {
+}
+
+.top__left--gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 634px;
+  height: 634px;
+}
+
+.top__right--gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom__right--container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(97deg, rgba(255, 255, 255, 0.008) 83%, #54be96);
+  filter: blur(130px);
+}
+.box__shadow {
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.05);
+  width: 60px;
+  height: 60px;
+}
+
+.image__background--svg > svg:first-child {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.image__background--svg > svg:last-child {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
